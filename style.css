@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
+body{
+    background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-image: linear-gradient(to left, #b8c4d4, #8792a1, #596372, #2e3845, #05111d);
+width:inherit;
+font-family: 'Barlow', sans-serif;
+margin: 0px;
+height: 100vh;
+width: 100%;
+
+}
+.heading{
+    margin-top: 0px;
+    font-size: 60px;
+    margin-bottom: 1px;
+}
+.heading1{
+    margin-top: 0px;
+    font-size: 35px;
+}
+.header{
+    text-align: center;
+    background-color: rgba(51, 49, 49, 0.637);
+    color: rgba(226, 226, 226, 0.842);
+}
+
+.searcharea{
+    text-align: center;
+}
+.tagfilter{
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 0px; */
+    width: 400px;
+  height: 2.8rem;
+  background: #f5f5f5;
+  outline:0px;
+  border-width: 1px;
+  border-color: rgba(15, 15, 15, 0.544);
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+}
+.filterbtn{
+   border-radius: 15px;
+   height: 43px;
+   width: 100px;
+  text-align: center;
+  /* outline: none; */
+  border-width: 1px;
+  border-color: rgba(81, 80, 80, 0.598);
+  background-color:rgb(0, 0, 0);
+  color:rgba(255, 255, 255, 0.734);
+  font-size: 20px;
+}
+.cat-image{
+    height: 200px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.catcard{
+    background-color: rgba(197, 196, 196, 0.925);
+    height: 300px;
+    width: 250px;
+    font-size: 14px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border:10px;
+    font-weight: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+
+.cat-info{
+    padding: 3px;
+    font-weight: 580;
+    padding: 3px;
+    font-size: 14px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
